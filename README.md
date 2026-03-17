@@ -7,9 +7,9 @@ O sistema segue boas práticas de programação, incluindo o padrão DAO, princ�
 
 # 🛠 Tecnologias Utilizadas
 # Backend
-Java 11+: Linguagem principal
+Java 21: Linguagem principal
 
-Spring Boot 2.7: Framework de aplicação
+Spring Boot 3.2: Framework de aplicação
 
 Spring MVC: Camada web
 
@@ -179,4 +179,16 @@ mvn clean test
 # Gerar relatório de cobertura
 ```
 mvn clean test jacoco:report
+```
+
+## 📊 Cobertura de Testes
+```
+O projeto utiliza JaCoCo para análise de cobertura de testes.
+
+Resultados obtidos:
+
+- Cobertura de instruções: 88%
+- Cobertura de branches: 91%
+
+Isso garante que a maior parte da lógica de negócio esteja validada por testes automatizados.
 ```
